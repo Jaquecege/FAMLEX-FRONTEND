@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "famlex-backend-production.up.railway.app", // tu backend real
+  baseURL: "https://famlex-backend-production.up.railway.app/api", // ✅ URL CORRECTA del backend
 });
 
 // Registro
